@@ -1,0 +1,139 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.right ul {
+    display: flex;
+    gap: 22px;
+}
+.right ul li {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img{
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.first {
+    font-size: 25px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 65px;
+}
+section span img{
+    margin-left: 20px;
+}
+
+.first span{
+    font-size: 40px;
+}
+.first p {
+    width: 900px;
+    text-align: center;
+
+}
+.first button {
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.second {
+    max-width: 60vw;
+  margin-left: 100px;
+  
+    
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img  {
+    width: 50px;
+    height: 50px;
+    margin: 18px;  
+}
+.large {
+    font-size: 25px;
+    margin: 10px;
+
+}
+.small {
+    font-size: 15px;
+
+}
+.grid {
+    margin-top: 25px;
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    margin-left: 200px;
+
+}
+.item {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    /* width: 250px; */
+    /* height: 80px; */
+   
+    /* margin: 30px; */
+    width: max-content;
+    padding: 18px;
+    background-color:rgb(232, 223, 223);
+    
+}
+.item-lang{
+    font-size: 20px;
+    font-weight: 700;
+    /* text-align: center; */
+    padding-bottom: 25px;
+    
+
+}
+
+.btn-blue {
+ background-color: rgb(158, 158, 231); 
+ width: 120px;
+ height: 35px;  
+ border-radius: 10px;
+ border: none;
+ cursor: pointer;
+ color: white;
+ font-weight: 600;
+ margin: 10px;
+ 
+
+
+}
+.btn-red{
+    background-color: rgb(222, 107, 107);
+    width: 120px;
+    height: 35px;
+    border-radius: 10px; 
+    border: none;
+    cursor: pointer;
+    color: white;
+ font-weight: 600;
+ margin: 10px;
+}
